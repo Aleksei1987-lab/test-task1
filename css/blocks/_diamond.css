@@ -28,13 +28,20 @@
 .circle-icon svg {
   width: 20px;
   fill: var(--color-9564aa);
+  transition: fill .3s ease-in-out;
 }
 .circle-text {
   font-weight: 700;
   font-size: 12px;
   color: var(--color-9564aa);
+  transition: color .3 ease-in-out;
 }
 .circle-item:nth-child(5),
 .circle-item:nth-child(6) {
   display: none;
+}
+@media (any-hover: hover) {
+  .circle-inner:hover .circle-icon svg {
+    fill: var(--gold);
+  }
 }
