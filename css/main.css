@@ -1,0 +1,22 @@
+
+@import url('./_normalize.css');
+@import url('./_fonts.css');
+@import url('./_vars.css');
+@import url('./_setings.css');
+
+
+@import url('./blocks/_burger.css');
+@import url('./blocks/_header.css');
+@import url('./blocks/_profile.css');
+@import url('./blocks/_credit.css');
+@import url('./blocks/_banner.css');
+@import url('./blocks/_timer.css');
+@import url('./blocks/_offer.css');
+@import url('./blocks/_slider.css');
+@import url('./blocks/_custom-checkbox.css');
+@import url('./blocks/_try-btn.css');
+@import url('./blocks/_diamond.css');
+
+
+@import url('./blocks/_media.css');
+

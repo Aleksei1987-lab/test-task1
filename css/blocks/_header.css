@@ -1,0 +1,29 @@
+
+.header {
+  background-color: var(--color-9564aa);
+  margin-bottom: 20px;
+}
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 27px;
+}
+.header_logo-link {
+  display: none;
+}
+.header_menu {
+  display: none;
+}
+ .header_menu-item {
+  font-size: 0;
+ }
+.header_btn-wrapper {
+  font-size: 0;
+}
+.header_btn-premium svg {
+  stroke: var(--gold);
+  transition: stroke .3s ease-in-out;
+}
+.show-menu {
+  display: block;
+}

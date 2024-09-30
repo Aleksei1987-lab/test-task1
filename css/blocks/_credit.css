@@ -1,0 +1,12 @@
+.credit {
+  grid-area: credit;
+}
+.credit_title {
+  margin: 0;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-bottom: 2px solid rgba(149, 100, 170, 0.2);
+}

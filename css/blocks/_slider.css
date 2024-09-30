@@ -1,0 +1,25 @@
+.slider-container {
+	overflow: hidden;
+	width: 100%;
+}
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  top: 200px;
+  bottom: 200px;
+}
+
+@media (max-width: 600px) {
+	.card {
+		width: 100%;
+		margin: 0;
+		flex-shrink: 0;
+	}
+
+	.slider-container .swiper-wrapper {
+		justify-content: initial;
+		flex-wrap: nowrap;
+	}
+}
+
+
+

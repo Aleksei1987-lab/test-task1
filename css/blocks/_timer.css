@@ -1,0 +1,22 @@
+
+.timer {
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: var(--white);
+}
+.timer-time {
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+}
+.timer-time:not(:last-child) {
+  padding-right: 30px;
+}
+.timer-time:not(:last-child)::after {
+  position: absolute;
+  content: ':';
+  top: -2px;
+  padding: 0 10px;
+}

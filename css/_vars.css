@@ -1,0 +1,26 @@
+:root {
+  --dark-primary: #2a254b;
+  --primary: #4e4d93;
+  --color-684677: #684677;
+  --color-9564aa: #9564aa;
+  --color-c15ca1: #c15ca1;
+  --gold: #ffcf2d;
+  --light-grey: #f9f9f9;
+  --border-grey: #ebe8f4;
+  --white: #fff;
+  --border-dark: #cac6da;
+  --black: #000;
+
+
+  --font-family: "Ubuntu", sans-serif;
+
+  --header-menu-gap: 40px;
+  --gap: 30px;
+  --container-width: 100%;
+  --container-offset: 20px;
+
+  --main-trs: color 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+
+  --outline: 2px dashed currentColor;
+  --outline-offset: 3px;
+}

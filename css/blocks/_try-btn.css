@@ -1,0 +1,8 @@
+.try-btn {
+  display: flex;
+  justify-content: center;
+  background-color: var(--gold);
+  margin-bottom: 15px;
+  padding: 17px 0;
+  border-radius: 10px;
+}

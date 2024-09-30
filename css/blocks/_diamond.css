@@ -1,0 +1,40 @@
+.center-icon {
+  display: flex;
+  justify-content: center;
+}
+.diamond-center_icon svg {
+  width: 81px;
+  height: 67px;
+}
+.circle-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.circle-inner {
+  display: flex;
+  align-items: center;
+}
+.circle-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  border-radius: 100%;
+  background-color: rgba(149, 100, 170, 0.1);
+}
+.circle-icon svg {
+  width: 20px;
+  fill: var(--color-9564aa);
+}
+.circle-text {
+  font-weight: 700;
+  font-size: 12px;
+  color: var(--color-9564aa);
+}
+.circle-item:nth-child(5),
+.circle-item:nth-child(6) {
+  display: none;
+}

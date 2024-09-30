@@ -1,0 +1,44 @@
+.offer {
+  margin-bottom: 32px;
+}
+.offer-slider_container {
+  padding-bottom: 30px;
+}
+.offer_item-wrapper {
+  display: flex;
+  justify-content: end;
+}
+.offer_item {
+  position: relative;
+  width: 90%;
+  display: flex;
+  justify-content: end;
+  padding: 15px 33px;
+  border-radius: 10px;
+  background-color: var(--color-9564aa);
+}
+.offer_topick {
+  position: absolute;
+  top: 50%;
+  left: -12%;
+  padding: 3px 10px;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: var(--gold);
+  transform: translateY(-50%);
+}
+.offer_sum {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--white);
+}
+.offer_price {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--white);
+  letter-spacing: 1px;
+}
+.offer_btn {
+  font-size: 24px;
+}

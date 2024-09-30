@@ -1,0 +1,31 @@
+.banner {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 31px;
+  margin-bottom: 26px;
+  padding: 13px;
+  border-radius: 10px;
+  background-color: var(--color-c15ca1);
+}
+.banner_subtitle {
+  margin: 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 140%;
+  text-align: center;
+  -webkit-text-stroke: 1px var(--white);
+  color: var(--gold);
+}
+.banner_timer {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+.banner_text {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
